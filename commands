@@ -1,6 +1,8 @@
 ^ syntax example:
 ^ alias & commands 
 
+chrcv & vim ~/.bashrc
+chrcn & nano ~/.bashrc
 cdd & cd ..
 cd2 & cd .. ; cd .. 
 cd3 & cd .. ; cd .. ; cd ..

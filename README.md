@@ -1,4 +1,6 @@
 ## commands:
+### chrcv - vim ~/.bashrc
+### chrcn - nano ~/.bashrc
 ### mkrp - git init
 ### dlrp - rm -rf .git/
 ### cdd - cd ..
