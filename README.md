@@ -10,7 +10,7 @@
 #### gst - git status
 #### gb - git branch 
 #### gc - git checkout 
-#### ga - git add arg (it adds all files to repo if you dont write an extra!)
+#### ga - git add (it adds all files to repo if you dont write an extra!)
 #### gr - git rm 
 #### gmit - git commit -m 
 #### glon - git clone protocol://github.com/username/reponame
