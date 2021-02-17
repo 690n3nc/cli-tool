@@ -1,0 +1,16 @@
+^ syntax example:
+^ alias & commands 
+
+cdd & cd ..
+cd2 & cd .. ; cd .. 
+cd3 & cd .. ; cd .. ; cd ..
+mkrp & git init
+dlrp & rm -rf .git 
+gmit & python3 ~/.cli-tool/git_commit.py
+glon & python3 ~/.cli-tool/git_clone.py
+gc & python3 ~/.cli-tool/git_checkout.py
+gb & python3 ~/.cli-tool/git_branch.py
+gr & python3 ~/.cli-tool/git_remove.py
+ga & python3 ~/.cli-tool/git_add.py
+gst & git status
+grao & python3 ~/.cli-tool/git_rao.py
