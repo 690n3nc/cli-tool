@@ -7,7 +7,7 @@ if len(sys.argv) == 2:
         f.write(temp)
         f.close()
 	
-	os.system("nano main.c")
+	    os.system("nano main.c")
         
     elif sys.argv[1] == "cpp":
         temp = open("/home/<<USER>>/.cli-tool/cpp_template", "r").read()
