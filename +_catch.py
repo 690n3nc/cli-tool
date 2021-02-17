@@ -6,9 +6,9 @@ if len(sys.argv) == 2:
         f = open("main.c", "w")
         f.write(temp)
         f.close()
-	
-	os.system("nano main.c")
         
+        os.system("nano main.c")
+  
     elif sys.argv[1] == "cpp":
         temp = open("/home/<<USER>>/.cli-tool/cpp_template", "r").read()
         f = open("main.cpp", "w")
@@ -16,7 +16,7 @@ if len(sys.argv) == 2:
         f.close()
         
         os.system("nano main.cpp")
-        
+  
     elif sys.argv[1] == "java":
         temp = open("/home/<<USER>>/.cli-tool/java_template", "r").read()
         f = open("Main.java", "w")
@@ -25,10 +25,5 @@ if len(sys.argv) == 2:
         
         os.system("nano Main.java")
         
-    else:
-        print("-\nUNVALID INPUT\n-")
-        sys.exit()
 else:
-    print("there is only two extra needed and first arg must be +.")
-    sys.exit()
-    
+    print("-\nUNVALID INPUT\n-")
