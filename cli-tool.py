@@ -41,7 +41,10 @@ files = [
 "git_remove.py",
 "git_checkout.py",
 "git_rao.py",
-"+_catch.py"
+"+_catch.py",
+"java_template",
+"cpp_template",
+"c_template"
 ]
 
 for file in files:
