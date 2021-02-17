@@ -1,7 +1,7 @@
 import sys, os
-if len(sys.argv) == 3:
+if len(sys.argv) == 4:
     arg = f"git clone https://github.com/{ sys.argv[1] }/{ sys.argv[2] } { sys.argv[3]}"
-elif len(sys.argv) == 2:
+elif len(sys.argv) == 3:
     arg = f"git clone https://github.com/{ sys.argv[1] }/{ sys.argv[2] }"
 
 else:
