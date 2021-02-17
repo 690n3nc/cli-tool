@@ -1,6 +1,8 @@
 ^ syntax example:
 ^ alias & commands 
 
+remove-cli-tool & rm -rf .cli-tool/ 
++ & python3 ~/.cli-tool/+_catch.py
 chrcv & vim ~/.bashrc
 chrcn & nano ~/.bashrc
 cdd & cd ..

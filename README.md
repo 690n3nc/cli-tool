@@ -1,4 +1,5 @@
 ## commands:
+### + (java, c, cpp) code template
 ### chrcv - vim ~/.bashrc
 ### chrcn - nano ~/.bashrc
 ### mkrp - git init

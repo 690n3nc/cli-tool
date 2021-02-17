@@ -2,6 +2,14 @@ import sys, os, shutil
 
 username = input("cli-tool\n\nusername on session:")
 
+cont = open("+_catch.py", "r").read()
+
+cont = cont.replace("<<USER>>", username)
+
+f = open("+_catch.py", "w")
+f.write(cont)
+f.close()
+
 raw_lines = open("commands", "r").readlines()
 
 fcontent = "\n"
@@ -32,7 +40,8 @@ files = [
 "git_add.py",
 "git_remove.py",
 "git_checkout.py",
-"git_rao.py"
+"git_rao.py",
+"+_catch.py"
 ]
 
 for file in files:
@@ -54,5 +63,5 @@ try:
 except:
 	pass
 
-print("cli-tool installed.")
+print("cli-tool installed.\nwrite remove-cli-tool to remove.")
 
