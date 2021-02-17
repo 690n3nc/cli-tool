@@ -1,7 +1,6 @@
 import sys, os
 
-arg = ""
-if len(sys.argv) == 2 and sys.argv[0] == "+":
+if len(sys.argv) == 2:
     if sys.argv[1] == "c":
         temp = open("/home/<<USER>>/.cli-tool/c_template", "r").read()
         f = open("main.c", "w")
@@ -27,4 +26,3 @@ else:
     print("there is only two extra needed and first arg must be +.")
     sys.exit()
     
-os.system( arg )
