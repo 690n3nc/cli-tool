@@ -58,7 +58,8 @@ files = [
 "+_catch.py",
 "java_template",
 "cpp_template",
-"c_template"
+"c_template",
+"the_end.py"
 ]
 
 for file in files:
