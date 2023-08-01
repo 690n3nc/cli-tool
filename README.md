@@ -1,4 +1,5 @@
 ### commands:
+#### ilkis - updating and upgrading all packages, including kernel then autoremove unnecessary ones.
 #### + (java, c, cpp) code template
 #### chrcv - vim ~/.bashrc
 #### chrcn - nano ~/.bashrc
