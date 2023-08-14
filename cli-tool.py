@@ -3,7 +3,7 @@ import sys, os, shutil
 username = input("cli-tool\n\nusername on session:")
 
 
-
+#changing files for the user
 cont = open("+_catch.py", "r").read()
 
 cont = cont.replace("<<USER>>", username)
@@ -11,7 +11,6 @@ cont = cont.replace("<<USER>>", username)
 f = open("+_catch.py", "w")
 f.write(cont)
 f.close()
-
 
 
 cont = open("the_end.py", "r").read()
@@ -22,6 +21,15 @@ f = open("the_end.py", "w")
 f.write(cont)
 f.close()
 
+
+cont = open("ilkis.sh", "r").read()
+
+cont = cont.replace("~", "/home/{}".format(username))
+
+f = open("ilkis.sh", "w")
+f.write(cont)
+f.close()
+#---
 
 
 raw_lines = open("commands", "r").readlines()
@@ -61,7 +69,8 @@ files = [
 "c_template",
 "the_end.py",
 "ilkis.sh",
-"dilkis.sh"
+"dilkis.sh",
+"ilkis_logs"
 ]
 
 for file in files:
