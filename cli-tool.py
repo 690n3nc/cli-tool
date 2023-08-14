@@ -29,6 +29,15 @@ cont = cont.replace("~", "/home/{}".format(username))
 f = open("ilkis.sh", "w")
 f.write(cont)
 f.close()
+
+
+cont = open("dilkis.sh", "r").read()
+
+cont = cont.replace("~", "/home/{}".format(username))
+
+f = open("dilkis.sh", "w")
+f.write(cont)
+f.close()
 #---
 
 
