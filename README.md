@@ -1,5 +1,6 @@
 # commands:
-### ilkis - updating and upgrading all packages, including kernel then autoremove unnecessary ones.
+### ilkis - updating and upgrading all packages, including kernel, and takes logs.
+### dilkis - displays when was the last 5 ilkis use.
 ### + (java, c, cpp) code template
 ### chrcv - vim ~/.bashrc
 ### chrcn - nano ~/.bashrc

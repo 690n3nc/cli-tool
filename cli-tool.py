@@ -59,7 +59,9 @@ files = [
 "java_template",
 "cpp_template",
 "c_template",
-"the_end.py"
+"the_end.py",
+"ilkis.sh",
+"dilkis.sh"
 ]
 
 for file in files:

@@ -4,7 +4,7 @@ f.close()
 
 
 i = 0
-while i < 18:
+while i < 21:
     lines.pop(-1)
     i += 1
 

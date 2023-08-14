@@ -1,7 +1,8 @@
 ^ syntax example:
 ^ alias & commands 
 
-ilkis & sudo apt update -y; sudo apt upgrade -y; sudo apt dist-upgrade -y; sudo apt autoremove -y
+dilkis & sudo bash ~/.cli-tool/dilkis.sh
+ilkis & sudo bash ~/.cli-tool/ilkis.sh
 remove-cli-tool & python3 ~/.cli-tool/the_end.py; rm -rf .cli-tool/ 
 + & python3 ~/.cli-tool/+_catch.py
 chrcv & vim ~/.bashrc
