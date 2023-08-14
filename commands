@@ -3,7 +3,7 @@
 
 dilkis & sudo bash ~/.cli-tool/dilkis.sh
 ilkis & sudo bash ~/.cli-tool/ilkis.sh
-remove-cli-tool & python3 ~/.cli-tool/the_end.py; rm -rf .cli-tool/ ;echo -e "\n\n\nsee you later..." 
+remove-cli-tool & python3 ~/.cli-tool/the_end.py; rm -rf .cli-tool/ ;echo -e '\n\n\nsee you later...' 
 + & python3 ~/.cli-tool/+_catch.py
 chrcv & vim ~/.bashrc
 chrcn & nano ~/.bashrc
