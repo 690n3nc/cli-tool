@@ -1,6 +1,7 @@
 import sys, os, shutil
+from getpass import getuser
 
-username = input("cli-tool\n\nusername on session:")
+username = getuser()
 gkey = input("your preferred github key:")
 
 #changing files for the user
@@ -93,6 +94,7 @@ files = [
 "the_end.py",
 "ilkis.sh",
 "dilkis.sh",
+"rilkis.sh",
 "github_key",
 "ilkis_logs"
 ]
