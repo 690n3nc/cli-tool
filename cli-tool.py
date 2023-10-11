@@ -1,9 +1,14 @@
 import sys, os, shutil
 
 username = input("cli-tool\n\nusername on session:")
-
+gkey = input("your preferred github key:")
 
 #changing files for the user
+
+f = open("github_key", "w")
+f.write(gkey)
+f.close()
+
 cont = open("+_catch.py", "r").read()
 
 cont = cont.replace("<<USER>>", username)
@@ -36,6 +41,15 @@ cont = open("dilkis.sh", "r").read()
 cont = cont.replace("~", "/home/{}".format(username))
 
 f = open("dilkis.sh", "w")
+f.write(cont)
+f.close()
+
+
+cont = open("rilkis.sh", "r").read()
+
+cont = cont.replace("~", "/home/{}".format(username))
+
+f = open("rilkis.sh", "w")
 f.write(cont)
 f.close()
 #---
@@ -79,6 +93,7 @@ files = [
 "the_end.py",
 "ilkis.sh",
 "dilkis.sh",
+"github_key",
 "ilkis_logs"
 ]
 

@@ -1,6 +1,7 @@
 ^ syntax example:
 ^ alias & commands 
 
+rilkis & sudo bash ~/.cli-tool/rilkis.sh
 dilkis & sudo bash ~/.cli-tool/dilkis.sh
 ilkis & sudo bash ~/.cli-tool/ilkis.sh
 remove-cli-tool & python3 ~/.cli-tool/the_end.py; rm -rf .cli-tool/ ;echo -e '\n\n\nsee you later...' 
@@ -20,3 +21,4 @@ gr & python3 ~/.cli-tool/git_remove.py
 ga & python3 ~/.cli-tool/git_add.py
 gst & git status
 grao & python3 ~/.cli-tool/git_rao.py
+sgk & cat ~/.cli-tool/github_key
