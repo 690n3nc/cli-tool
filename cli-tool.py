@@ -7,7 +7,7 @@ gkey = input("your preferred github key:")
 #changing files for the user
 
 f = open("github_key", "w")
-f.write(f"your preferred github key:\n\n{gkey}\n”")
+f.write(f"your preferred github key:\n\n{gkey}\n")
 f.close()
 
 cont = open("+_catch.py", "r").read()
