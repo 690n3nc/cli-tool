@@ -6,53 +6,53 @@ gkey = input("your preferred github key:")
 
 #changing files for the user
 
-f = open("github_key", "w")
-f.write(f"your preferred github key:\n\n{gkey}\n")
-f.close()
+fl_1 = open("github_key", "w")
+fl_1.write(f"your preferred github key:\n\n{gkey}\n")
+fl_1.close()
 
 cont = open("+_catch.py", "r").read()
 
 cont = cont.replace("<<USER>>", username)
 
-f = open("+_catch.py", "w")
-f.write(cont)
-f.close()
+fl_1 = open("+_catch.py", "w")
+fl_1.write(cont)
+fl_1.close()
 
 
 cont = open("the_end.py", "r").read()
 
 cont = cont.replace("<<USER>>", username)
 
-f = open("the_end.py", "w")
-f.write(cont)
-f.close()
+fl_1 = open("the_end.py", "w")
+fl_1.write(cont)
+fl_1.close()
 
 
 cont = open("ilkis.sh", "r").read()
 
 cont = cont.replace("~", "/home/{}".format(username))
 
-f = open("ilkis.sh", "w")
-f.write(cont)
-f.close()
+fl_1 = open("ilkis.sh", "w")
+fl_1.write(cont)
+fl_1.close()
 
 
 cont = open("dilkis.sh", "r").read()
 
 cont = cont.replace("~", "/home/{}".format(username))
 
-f = open("dilkis.sh", "w")
-f.write(cont)
-f.close()
+fl_1 = open("dilkis.sh", "w")
+fl_1.write(cont)
+fl_1.close()
 
 
 cont = open("rilkis.sh", "r").read()
 
 cont = cont.replace("~", "/home/{}".format(username))
 
-f = open("rilkis.sh", "w")
-f.write(cont)
-f.close()
+fl_1 = open("rilkis.sh", "w")
+fl_1.write(cont)
+fl_1.close()
 #---
 
 
@@ -67,9 +67,9 @@ for line in raw_lines:
 		fcontent += f'alias {alias}="{cmd}"\n'
 
 
-f = open("/home/{}/.bashrc".format(username), "a")
-f.write(fcontent)
-f.close()
+fl_1 = open("/home/{}/.bashrc".format(username), "a")
+fl_1.write(fcontent)
+fl_1.close()
 
 cp = os.getcwd()
 try:
