@@ -28,10 +28,10 @@
 |**gb**|git branch|
 |**gc**|git checkout| 
 |**ga**|git add (it adds all files to repo if you dont write an extra!)|
-|**gr**|git rm|
-|**gmit**|git commit -m|
-|**glon**|git clone protocol://github.com/username/reponame|
-|**grao**|git remote add origin protocol://github.com/username/reponame|
+|**gr**|git rm *file*|
+|**gmit**|git commit -m *file*|
+|**glon**|git clone *username* *reponame*
+|**grao**|git remote add origin *username* *reponame*
 |**remove-cli-tool**|clears all scripts, logs and commands.|
 
 
