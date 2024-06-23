@@ -10,7 +10,6 @@
 ***
 #### ***a brief guide***
 ***
-***
 
 |shortcut|action|
 |---|---|
